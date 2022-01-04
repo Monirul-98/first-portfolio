@@ -1,13 +1,16 @@
 body {
   font-family: "Raleway", sans-serif;
+  margin: 0;
 }
 
 .color {
-  color: #1e6091;
+  color: #264653;
 }
 
 .header {
   display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
 
 .head {
@@ -17,8 +20,26 @@ body {
 .head-1 {
   width: 60%;
 }
-.head-2 {
+.heading {
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+.para-1 {
+  font-size: 17px;
+  text-align: justify;
+  margin-bottom: 25px;
+  font-weight: 500;
 }
 .my-image {
-  width: 60%;
+  width: 70%;
+  clip-path: polygon(19% 1%, 100% 0, 96% 100%, 0 100%);
+}
+
+.hire-button {
+  text-decoration: none;
+  background-image: linear-gradient(to right bottom, #ae1f12c7, #9b22269c);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 500;
 }
