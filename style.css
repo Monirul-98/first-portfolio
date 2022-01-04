@@ -2,12 +2,12 @@ body {
   font-family: "Raleway", sans-serif;
   margin: 0;
 }
-section {
+.flexible-container {
   display: flex;
 }
 
 .color {
-  color: #264653;
+  color: #d90429;
 }
 
 .header {
@@ -52,9 +52,40 @@ section {
   letter-spacing: 3px;
 }
 .my-image-1 {
-  width: 80%;
+  width: 75%;
   clip-path: polygon(0 0, 83% 0, 96% 100%, 4% 100%);
 }
 .dream-head-1 {
   padding-right: 130px;
+}
+.experience {
+  margin: 3% 6%;
+}
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-header {
+  font-size: 40px;
+}
+.web-dev {
+  width: 50%;
+  margin: 0 5% 4%;
+  padding: 3%;
+  box-shadow: 10px 10px 40px grey;
+  border-radius: 5px;
+}
+.wev-dev-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(#03071e, #9d0208);
+  border-image-slice: 41;
+}
+.wev-dev-experience-1 {
+  border-left: 7px solid;
+  border-image: linear-gradient(#0096c7, #03045e);
+  border-image-slice: 14;
+}
+footer p {
+  text-align: center;
 }
